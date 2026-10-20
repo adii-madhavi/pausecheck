@@ -15,9 +15,10 @@ Open the local address printed by Vite. No API keys, accounts, database, environ
 
 ## Judging links
 
-- Working demo: https://pausecheck.alexdaon243.chatgpt.site
+- Working demo on Vercel: https://pausecheck.vercel.app
+- Original judging demo: https://pausecheck.alexdaon243.chatgpt.site
 - Project source: https://github.com/adii-madhavi/pausecheck
-- Project story: https://pausecheck.alexdaon243.chatgpt.site/project-story.md
+- Project story: https://pausecheck.vercel.app/project-story.md
 
 The source archive includes the application, tests, dependency lockfile, and setup and submission documents. It excludes credentials, Git metadata, installed dependencies, and submitted messages. The app links to this GitHub repository for source and serves the project story from its own host.
 
@@ -30,6 +31,8 @@ npm run preview
 The production output is `dist/`. It can be served by a static web host. Serve the built files over HTTP rather than opening `index.html` directly from disk.
 
 ## Deploy on Vercel
+
+The current Vercel release was published from the verified production build on October 20, 2026. The GitHub repository is backed up independently; automatic deployment from GitHub is not configured yet.
 
 Import `adii-madhavi/pausecheck` into Vercel. The included `vercel.json` selects Vite, runs `npm ci` and `npm run build`, and publishes `dist/`. Node.js 24 is declared in `package.json`. No environment variables or secrets are required.
 

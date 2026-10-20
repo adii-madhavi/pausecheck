@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.openai/
+.vercel/
+.sites-runtime/
+*.local
+*.log
+.env*
+!.env.example
